@@ -57,14 +57,15 @@ Since the output in this tutorial is html, you can open it with your preferred b
 firefox build/tutorial.html`
 ```
 If the file was generated successfully, it would look something like this:
-![screenshot](tutorial/screesnhot.png)
-
+![HTNML Output](tutorial/screenshot.png)
 
 ## Generate all formats
 ```
 $ make all
 ```
 
+## Generated tutorial files
+The files generated in this tutorial can be found in the [tutorial](tutorial/) folder.
 
 # Manual use of the stylesheets
 In essence this utility is only a simplified way to generate build pdf|html files. It's completely possible to just use
