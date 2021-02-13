@@ -1,0 +1,63 @@
+pageSetup:
+    size: null
+    margin-top: 30
+    margin-bottom: 30
+
+fontsAlias:
+    stdFont: sans-serif
+
+styles:
+    normal:
+        fontName: stdFont
+        textColor: #383745
+        fontSize: 8
+        spaceBefore:0
+        spaceAfter:0
+        alignment: TA_LEFT
+        bulletIndent: 40
+
+    heading:
+        #fontSize: 30
+        textColor: #009688
+
+    # 1st Heading
+    title:
+        #fontSize: 14
+        fontColor: #ff0000
+
+    heading1:
+        spaceBefore: 20
+        fontSize: 12
+        textColor: #666666
+
+    # Main Title
+    heading2:
+        fontSize: 10
+
+    bullet-list:
+        fontSize: 6
+        fontColor: #FF0000
+        spaceBefore: 0
+        spaceAfter: 0
+
+    bullet-list-item:
+        font-size: 8
+        spaceAfter: 0
+        spaceBefore: 0
+#
+#    item-list-item:
+#        font-size: 20
+#        spaceAfter: 0
+#        spaceBefore: 0
+
+    definition-list-term:
+        parent: bodytext
+        fontSize: 8
+        textColor: #009688
+
+    fieldname:
+        alignment: TA_LEFT
+        textColor: #666666
+        #fontName: stdFont
+
+    

@@ -1,0 +1,95 @@
+/* https://www.w3schools.com/w3css/tryw3css_templates_cv.htm */
+body{
+    background-color: #ccc;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: Roboto, sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.document{
+    width: 1080px;
+    margin: auto;
+}
+
+/*w3-container w3-card w3-white w3-margin-bottom*/
+@media screen {
+    body > div > div.section {
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 0.15px;   
+    }
+}
+
+
+body > div > div .section {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+body > div > div .section:first-of-type {
+    border: 0px solid #ccc;
+    padding-top: 0px;
+}
+
+.field-list{
+    width: 100%;
+}
+.field-name {
+    text-align: left;
+    font-weight: normal;
+    color: rgb(0, 150, 136); 
+}
+
+li > p {
+    padding: 0px;
+}
+
+h2 {
+    color: #F17022;
+    color: rgb(0, 150, 136); 
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.title  {
+  color:#666;
+  font-size: 50px;
+  font-weight: bold;
+    text-shadow: 1px 1px white, -1px -1px #444;
+ }
+
+h1.title:after {
+    text-align: right;
+}
+.document > div > h1{
+    padding-bottom:20px;
+    border-bottom: 5px solid #ccc;
+}
+
+h1 {
+    color: rgb(117, 117, 117);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    /*color: rgb(0, 150, 136); */
+}
+dt {
+    color: rgb(0, 150, 136);
+    margin-top: 14px;
+}
+
+p {
+    box-sizing: border-box;
+    letter-spacing: 0.16px;
+    line-height: 28px;
+}
