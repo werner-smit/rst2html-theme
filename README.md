@@ -3,7 +3,7 @@ A set of preconfigured styles for rst2pdf and rst2html.
 
 # Getting started
 ## Prerequisites
-The stylesheet and build utilities are exclusively made for [docutils](https://docutils.sourceforge.io/) and [rst2pdf](https://rst2pdf.org/). These must be installed and on the global path for the `make all` to work.
+The stylesheet and build utilities are exclusively made for [docutils](https://docutils.sourceforge.io/) and [rst2pdf](https://rst2pdf.org/). These must be installed and on the global path for `make all` to work.
 
 # Generating PDF or HTML
 When using the `make` utility to generate the desired output, all `.rst` source files must be placed in the `src/`
